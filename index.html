@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js" integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./dist/css/css.css">
+<div class="main">
+  <div class="container1">
+  <div class='slide' id="total">
+    
+    <ul id="slide">
+      <li class="first"><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+      <li><a class="thumbnail" href="#"><img alt="" src="http://placehold.it/150x150"></a><div class="text">Olympique de Marseille (OM) Tickets</div></li>
+    </ul>
+  </div>
+    
+  <div>
+    <div class="slidebutton prev" onclick="prevFunction()"> < </div>
+    <div class="slidebutton next" onclick="nextFunction()"> > </div>
+  </div>
+</div>
+  
+</div>
+
+<script>
+  var slide = document.getElementById("total");
+  var slideWidth = slide.scrollWidth;
+  var scroll = 0
+  function prevFunction() {
+    if(scroll > 0) scroll = scroll - 400;
+    slide.scrollLeft = scroll;
+  }
+  function nextFunction() {
+    if(scroll < slideWidth - 1500) scroll = scroll + 400;
+    slide.scrollLeft = scroll;
+  }
+</script>
